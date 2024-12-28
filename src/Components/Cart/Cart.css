@@ -1,0 +1,152 @@
+.cart_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cart_left {
+  width: 65%;
+  background: #fff;
+  padding: 20px;
+}
+
+.cart_detail p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: #df5248;
+}
+.cart_right {
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+.cart_header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.cart_header .delete-cart {
+  font-size: 22px;
+  cursor: pointer;
+}
+.cart_header .delete-cart:hover {
+  color: red;
+}
+.cart_header span {
+  font-size: 20px;
+  margin-left: 0;
+  padding: 30px;
+}
+.cart_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px 100px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  justify-content: space-between;
+}
+
+.product_detail_container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.product_detail_container img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.product_info h3 {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 16px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity button {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.price,
+.total {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.cart_right h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.summary_item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.summary_item.total_cost {
+  font-weight: bold;
+  font-size: 20px;
+}
+.apply_btn {
+  background-color: #ff7518;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.checkout,
+.shopping {
+  width: 100%;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-bottom: 6px;
+}
+
+.checkout {
+  background-color: #4c4cff;
+}
+
+.shopping {
+  background-color: #ff7518;
+}
+
+.checkout:hover,
+.shopping:hover {
+  opacity: 0.8;
+}

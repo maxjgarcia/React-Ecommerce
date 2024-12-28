@@ -1,0 +1,29 @@
+.category_menu {
+  display: flex;
+  gap: 20px;
+  z-index: 3;
+  padding-top: 115vh;
+  height: 25vh;
+  flex-direction: column;
+
+  align-items: center;
+  scroll-margin-top: 100px;
+}
+.category_menu_list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+.category_menu_list_item {
+  padding: 0.9rem 3rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #fcf8f8;
+}
+.category_menu_list_item:hover {
+  background: #ff7518;
+  color: #fff;
+  border: none;
+}
