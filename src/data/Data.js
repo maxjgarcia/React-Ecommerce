@@ -1,6 +1,6 @@
 
 //import images
-import { frying_pan, sauce_pan, stockpot, spatula, tongs, whisk, blender, toaster, coffee_maker, chef_knife, paring_knife, bread_knife, glasses, wine, measuring_cup } from './assets/index'
+import { frying_pan, sauce_pan, stockpot, spatula, tongs, whisk, blender, toaster, coffee_maker, chef_knife, paring_knife, bread_knife, glasses, wine, measuring_cup } from '../assets/index'
 
 
 export const product_category_list = [

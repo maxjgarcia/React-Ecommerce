@@ -1,4 +1,4 @@
-import { product_category_list } from '../../data'
+import { product_category_list } from '../../data/Data'
 
 import './Category.css'
 
