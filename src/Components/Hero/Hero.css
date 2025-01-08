@@ -1,5 +1,5 @@
 .hero_container {
-  background-image: url("../../assets/kitchenHero.jpg");
+  background-image: url('../../assets/kitchenheromain.webp');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -27,7 +27,7 @@
   text-shadow: 3px 4px 10px rgba(0, 0, 0, 1);
 }
 .hero h1 span {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-weight: 600;
   font-style: normal;
   color: #ff7518;
