@@ -1,10 +1,10 @@
-import { product_category_list } from "../../data";
+import { product_category_list } from '../../data'
 
-import "./Category.css";
+import './Category.css'
 
-const Category = ({ category, setCategory, contentRef }) => {
+const Category = ({ setCategory, contentRef }) => {
   return (
-    <section className="category_menu" ref={contentRef}>
+    <section className='category_menu' ref={contentRef}>
       <h1>Choose From Our Top Quality Products</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nisi
@@ -12,25 +12,25 @@ const Category = ({ category, setCategory, contentRef }) => {
         explicabo, voluptates reprehenderit quis accusantium impedit nesciunt
         voluptate! Nobis, excepturi modi.
       </p>
-      <div className="category_menu_list">
+      <div className='category_menu_list'>
         {product_category_list.map((item, index) => {
           return (
             <div
               onClick={() =>
                 setCategory((prev) =>
-                  prev === item.product_name ? "All" : item.product_name
+                  prev === item.product_name ? 'All' : item.product_name
                 )
               }
               key={index}
-              className="category_menu_list_item"
+              className='category_menu_list_item'
             >
               <p>{item.product_name} </p>
             </div>
-          );
+          )
         })}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Category;
+export default Category
